@@ -39,7 +39,7 @@ RANDOM_INT = (0..7).to_a
 RANDOM_DURATION = [1, 2]
 
 # Creates some users with raclette devices
-72.times do
+30.times do
   first_name = Faker::Name.first_name
   last_name = Faker::Name.last_name
   email = Faker::Internet.free_email(name: "#{first_name}.#{last_name}")
